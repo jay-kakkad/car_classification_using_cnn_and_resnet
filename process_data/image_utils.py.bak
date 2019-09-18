@@ -1,0 +1,9 @@
+import os,sys
+import time
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(BASE_DIR)
+import tensorflow as tf
+import numpy as np
+
+MAX_HEIGHT = 128
+MAX_WIDTH = 128
